@@ -31,7 +31,7 @@ On a commodity machine (my laptop with SSD hard drive):
 - using http://snap.stanford.edu/data/com-LiveJournal.html  
 "./comcore1 10 com-lj.all.cmty.txt lj10" takes 4 minutes.
 
-## Initial contributors
+## Initial contributors:
 
 Maximilien Danisch and Jean-Loup Guillaume  
 Mars 2018  
