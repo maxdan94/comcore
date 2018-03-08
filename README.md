@@ -23,7 +23,10 @@ i0 i1 i2 ... in is the list of the nodes in the community.
 
 ## Performance:
 
-TODO
+On a commodity machine (my laptop with SSD hardrive):
+- using http://snap.stanford.edu/data/com-Youtube.html "./comcore1 10 com-youtube.all.cmty.txt Youtube10" is instantaneous.
+- using http://snap.stanford.edu/data/com-Friendster.html "./comcore1 10 com-friendster.all.cmty.txt friendster10" takes 4 minutes.
+- using http://snap.stanford.edu/data/com-LiveJournal.html "./comcore1 10 com-lj.all.cmty.txt lj10" takes 4 minutes.
 
 ## Initial contributors
 
