@@ -18,7 +18,7 @@ One community on each line:
 i0 i1 i2 ... in  
 where:  
 i0 i1 i2 ... in is the list of the nodes in the community.
-- pair.txt contains the list of all pairs of nodes appearing in more that k times in a same community: "node1 node2 times" on each line.
+- pair.txt contains the list of all pairs of nodes appearing together more that k times in a same community: "node1 node2 times" on each line.
 
 
 ## Performance:
