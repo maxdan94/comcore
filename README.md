@@ -1,4 +1,4 @@
-# comcores
+# comcore
 C code related to the computation of communitiy cores
 
 
@@ -8,7 +8,7 @@ Feel free to use these lines as you wish.
 
 ## To compile:
 
-- gcc comcores1.c -O3 -o comcores1
+- gcc comcore1.c -O3 -o comcore1
 
 ## To execute:
 
