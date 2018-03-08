@@ -23,7 +23,7 @@ i0 i1 i2 ... in is the list of the nodes in the community.
 
 ## Performance:
 
-On a commodity machine (my laptop with SSD hard drive):
+On a commodity machine (a mid-range laptop with an SSD hard drive):
 - using http://snap.stanford.edu/data/com-Youtube.html  
 "./comcore1 10 com-youtube.all.cmty.txt Youtube10" is instantaneous.
 - using http://snap.stanford.edu/data/com-Friendster.html  
