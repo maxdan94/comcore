@@ -115,10 +115,10 @@ bigraph* readcoms(char* communities){
 		}
 	}
 
-	//Sorting bottom nodes to save time later...
-	for (u=0;u<g->nb;u++){
-		qsort(g->adjb+g->cdb[u],g->db[u],sizeof(unsigned),cmpfunc);
-	}
+//	//Sorting bottom nodes to save time later...
+//	for (u=0;u<g->nb;u++){
+//		qsort(g->adjb+g->cdb[u],g->db[u],sizeof(unsigned),cmpfunc);
+//	}
 
 	return g;
 }
@@ -150,7 +150,7 @@ void pairs(bigraph *g, unsigned k, char* output){
 			v=g->adjb[i];
 			for (j=g->cdt[v];j<g->cdt[v+1];j++){
 				w=g->adjt[j];
-				if (w==u){//make sure that (u,w) is processed only once (out-neighbors of u are sorted)
+				if (w==u){//make sure that (u,w) is processed only once (out-neighbors of v are sorted)
 					break;
 				}
 				if(tab[w]==0){
