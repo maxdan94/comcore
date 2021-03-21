@@ -145,6 +145,8 @@ void pairs(bigraph *g, unsigned k, char* output){
 	inter=calloc(g->nb,sizeof(unsigned));
 
 	for (u=0;u<g->nb;u++){//embarrassingly parallel...
+		if (g->db[u)<k)
+			continue;
 		n=0;
 		for (i=g->cdb[u];i<g->cdb[u+1];i++){
 			v=g->adjb[i];
